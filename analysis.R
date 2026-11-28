@@ -57,6 +57,3 @@ View(Working_data2)
 model <- glm(OBESE ~ VIGOROUS_WORK + AGE_IN_YEARS + SEX,
              data = Working_data1, family = binomial)
 exp(cbind(OR = coef(model), confint(model)))
-            
-  
-
